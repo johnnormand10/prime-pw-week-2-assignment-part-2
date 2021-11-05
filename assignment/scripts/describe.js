@@ -167,7 +167,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//FIX - organize - The else should be on the next line/
+//FIX - instructions state we check age is greater than or equal to minAge, not to check if minAge is less than or equal to age
 if(minAge <= age) {
   console.log('no entry');
 } else {
