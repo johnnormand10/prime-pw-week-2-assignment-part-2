@@ -48,8 +48,8 @@ if (name === 'Mary') {
 // We create a variable called secret and it is undefined. And we create a variable called code and set it to 123.
 // We then create an if, else statement. We check if code is equal to 123. Variable code is equal to 123 and secret is now set as 'super'.
 // We multiply code (123) by 2. Code is now set to 246.
-// We create a new if, else statement. We check if code is less than 250. Variable code is less than 250 and secret is now set as 'duper'.
-// The console we read out 'duper'.
+// We create a new if, else statement. We check if code is less than 250. Variable code is less than 250 and secret remains 'super'.
+// The console we read out 'super'.
 
 
 //CODE
@@ -76,9 +76,10 @@ console.log(secret)
 // We create a variable called age and set it to '34' as a number.
 // We create a variable called zip and set it to '55407' as a number.
 // We create an if, else statement. We check if isStudent is 'true' and zip is greater than 80000. We console.log("You're a student on the West Coast!").
-// If the statement is not true, than we check if isStudent is false and if age is less than 30. We console.log("What are your hobbies?").
-// If the statement is not true, than we check if isStudent is true. We console.log("Welcome to Prime!").
+// If the first statement is not true, than we check if isStudent is false or if age is less than 30. We console.log("What are your hobbies?").
+// If the first and second statement is not true, than we check if isStudent is true. We console.log("Welcome to Prime!").
 // If none of the statements are true, we console.log("How about the weather?").
+// The console would read out "Welcome to Prime!".
 
 //CODE
 /*
@@ -139,7 +140,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX - colorTwo needs to be added - instructions ask to set both colorOne and colorTwo to 'purple'
+// FIX - Instructions state colorOne is blue and colorTwo is red. We need to switch the values of the variables in the code. After the if statement, colorTwo also needs to be set to purple.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -167,7 +168,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//FIX - instructions state we check age is greater than or equal to minAge, not to check if minAge is less than or equal to age
+//FIX - switch the two console logs.
 if(minAge <= age) {
   console.log('no entry');
 } else {
