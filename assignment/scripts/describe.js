@@ -29,7 +29,7 @@ if (number >= 2) {
 // We make a variable called name and set it to 'Dane' as a string.
 // Then we make an if, else statement to check if the variable name is 'Mary'.
 // If the name is 'Mary', the console we read out "Hi, Mary!".
-// Since the variable name is set to 'Dave', the console we read out "How do you do?".
+// Since the variable name is set to 'Dave', the console will read out "How do you do?".
 
 //CODE
 /*
@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // We then create an if, else statement. We check if code is equal to 123. Variable code is equal to 123 and secret is now set as 'super'.
 // We multiply code (123) by 2. Code is now set to 246.
 // We create a new if, else statement. We check if code is less than 250. Variable code is less than 250 and secret remains 'super'.
-// The console we read out 'super'.
+// The console will read out 'super'.
 
 
 //CODE
